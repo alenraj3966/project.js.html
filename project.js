@@ -104,6 +104,7 @@ function primeNumber(){
 }
 document.write("<br><br>")
 
+//Fibonacci serier
 clicksub =document.querySelector('#sub');
 clicksub.addEventListener('click', fibonacci);
 
@@ -124,6 +125,8 @@ function fibonacci(){
     document.querySelector('.get').innerHTML = "the fibonacci serier ;-"+result;
 }
 document.write("<br><br>")
+
+//string a rotate
 
 clickgo = document.querySelector('#go');
 clickgo.addEventListener('click', rotatestr);
@@ -147,6 +150,7 @@ document.querySelector('.value').innerHTML="the reversed string is :-"+ strrever
 }
 document.write("<br><br>")
 
+//Factorial
 clickon = document.querySelector('#on');
 clickon.addEventListener('click', factorial);
 
@@ -165,6 +169,7 @@ function factorial(){
 }
 document.write("<br><br>")
 
+//pyramid number
 clickon = document.querySelector('#use');
 clickon.addEventListener('click', pyramid);
 
