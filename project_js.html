@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>CALCULATOR</h3>
+<selection>
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <div class="button">C</div>
+            <div class="button">/</div>
+            <div class="button">*</div>
+            <div class="button">&larr;</div>
+            <div class="button">7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button">-</div>
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button">+</div>
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button">.</div>
+            <div class="button">(</div>
+            <div class="button">0</div>
+            <div class="button">)</div>
+            
+            <div id="equal" class="button">=</div>
+        </div>
+    </div>
+</selection>
+
+    <h3>Tables</h3>
+    <p>Number of rows :-</p>
+    <input type="number" id="rows" ><br>
+    <p>Number of cols :-</p>
+    <input type="number" id="cols"><br><br>
+    <button id="make">click</button>
+
+<table id="tab" border="1">
+    
+</table>
+<br>
+<br>
+<h3>count the vowels :</h3>
+input :-
+<input type="text" id="t1" name=""><br><br>
+<input type="button" value="click" onclick="go()">
+<p id="p1"></p>
+<br>
+<br>
+
+
+
+Enter the number if it is prime number or not :-
+<input type="number" id="txt"><br><br>
+<button type="submit" id="btn">click me</button>
+<p class="output"></p>
+<br>
+<br>
+
+
+The fibonacci series :
+<input type="number" id="num"><br><br>
+<button type="submit" id="sub">click me</button>
+<p class="get"></p>
+<br>
+<br>
+
+The string to rotate :
+<input type="text" id="word"><br><br>
+<button type="submit" id="go">click me</button>
+<p class="value"></p>
+<br>
+<br>
+
+Factorial number :
+<input type="number" id="fac"><br><br>
+<button type="submit" id="on">click me</button>
+<p class="ans"></p>
+<br>
+<br>
+
+pyramid a pattern :-
+<input type="text" id="pyr"><br><br>
+<button type="submit" id="use">click me</button>
+<p class="pyra"></p>
+<br>
+<br>
+
+<form>
+<h3>Application Form</h3>
+<div class="row">
+    <label> Name :-</label>
+    <input type="text" name="name">
+    <div class="error" id="nameErr"></div>
+</div>
+<div class="row">
+    <label> Email :-</label>
+    <input type="text" name="email">
+    <div class="error" id="emailErr"></div>
+</div>
+<div class="row">
+    <label> Mobile Number :-</label>
+    <input type="text" name="mobile">
+    <div class="error" id="mobileErr"></div>
+</div>
+<div class="row">
+    <label> Gender :-</label>
+    <div class="form-inline">
+        <label> 
+            <input  type="radio" name="gender" value="male">Male
+        </label>
+        <label> 
+            <input  type="radio" name="gender" value="female">Female
+        </label>
+    </div>
+    <div class="error" id="genderErr"></div>
+</div>
+<div class="row">
+    <label> Hobbies :-</label>
+    <div class="form-inline">
+        <label> 
+            <input  type="checkbox" name="hobbie" value="sport">Sport
+        </label>
+        <label> 
+            <input  type="checkbox" name="hobbies" value="reading">Reading
+        </label>
+        <input  type="checkbox" name="hobbies" value="music">Music
+    </label>
+    </div>
+    <div class="error" id="hobbiesErr"></div>
+</div>
+<div class="row">
+    <input type="submit" value="submit">
+    
+</div>
+</form>
+<br>
+<br>
+ <h3>To do list</h3>
+<input type="text" id="to-do">
+<ul id="myList"></ul>
+<input type="button" value="Add" onclick="addItem()">
+<br>
+<br>
+<h3>progress bar</h3>
+<input type="number" id="per"><br><br>
+<div id="progress">
+    <div id="bar">
+        <span id="len">0%</span>
+    </div>
+</div>
+
+<button type="submit" id="tpy">click me</button>
+
+
+
+
+
+    <script src="project.js"></script>
+</body>
+</html>
